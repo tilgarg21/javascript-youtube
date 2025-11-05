@@ -28,5 +28,25 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
+// ++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (N0n-Primitive)
+
+let myYoutubename = "tilakgargdotcom";
+let anotherName = myYoutubename;
+anotherName = "chaiaurcode";
+// console.log(anotherName);
+// console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne;
+userTwo.email = "tilak@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
 
